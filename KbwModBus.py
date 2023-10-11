@@ -4,7 +4,7 @@ from pyModbusTCP.client import ModbusClient
 import time
 import struct
 
-c = ModbusClient(host="192.168.10.20", port=502, timeout=5, auto_open=True, auto_close=True)  # , debug=True)
+c = ModbusClient(host="192.168.10.20", port=502, timeout=5, auto_open=True, auto_close=True)
 x = ()
 while not x:
 	time.sleep(1)
