@@ -1,6 +1,20 @@
-SW Versionen: "2023-10-17"
+SW Versionen: "2023-10-30"
 Seriennummer: "004"
 token: "http://thingsboard.kbw-cloud.de/api/v1/box004/telemetry"
+
+General:
+  DeviceName: box 004
+
+GPS:
+  Longitude: 48
+  Latitude: 9
+
+Solar:
+  Wechselrichter1:
+    Type: SMA
+    ip: 192.168.10.20
+    port: 502
+
 wifi:
   FB-Gast: qsj5eKuabwPuggKj24s0dNMN*UtlbgjgXG5075v0sskZvjA==*FF/odSuopI35zUQEG+kjzg==*d6IzKVchaHY9xcpferDt2A==
   GastTest: FjQUFOijPB4=*G6ktgEkXqWboPlDL84vaAw==*QgyI5do8kED4Magjo4aeBg==*LbKgdhhmUF59D8zMUDpP0A==
