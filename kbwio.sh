@@ -10,8 +10,7 @@ ExecStart=/home/kbwiot/KbwIO.py
 
 [Install]
 WantedBy=default.target
-">kbwio.service
-mv kbwio.service /etc/systemd/system/
+">/etc/systemd/system/
 systemctl enable kbwio.service
 systemctl start kbwio.service
 systemctl status kbwio.service
